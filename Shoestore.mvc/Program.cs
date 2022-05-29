@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using shoestore.Data;
+
 namespace shoestore;
 
 public class Program
@@ -6,6 +9,8 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
+        var connectionString = @"Server=db;Database=master;User=sa;Password=custom_password_123;";
+        builder.Services.AddDbContext<ApplicationDBContext>(options => options.UseSqlServer(connectionString));
         // Add services to the container.
         builder.Services.AddControllersWithViews();
 
@@ -17,6 +22,8 @@ public class Program
             app.UseExceptionHandler("/Home/Error");
             // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
             app.UseHsts();
+        } else {
+            app.UseMigrationsEndPoint();
         }
 
         app.UseHttpsRedirection();

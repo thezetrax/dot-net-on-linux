@@ -3,20 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoestore", "Shoestore.mvc\shoestore.csproj", "{B9631FC0-2385-48D1-BED0-DDBBB722CFAE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoestore.mvc", "Shoestore.mvc\Shoestore.mvc.csproj", "{EC03E708-A420-44D8-8D45-91DBAE67C20A}"
 EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B9631FC0-2385-48D1-BED0-DDBBB722CFAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B9631FC0-2385-48D1-BED0-DDBBB722CFAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B9631FC0-2385-48D1-BED0-DDBBB722CFAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B9631FC0-2385-48D1-BED0-DDBBB722CFAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC03E708-A420-44D8-8D45-91DBAE67C20A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC03E708-A420-44D8-8D45-91DBAE67C20A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC03E708-A420-44D8-8D45-91DBAE67C20A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EC03E708-A420-44D8-8D45-91DBAE67C20A}.Debug|x64.Build.0 = Debug|Any CPU
+		{EC03E708-A420-44D8-8D45-91DBAE67C20A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EC03E708-A420-44D8-8D45-91DBAE67C20A}.Debug|x86.Build.0 = Debug|Any CPU
+		{EC03E708-A420-44D8-8D45-91DBAE67C20A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC03E708-A420-44D8-8D45-91DBAE67C20A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC03E708-A420-44D8-8D45-91DBAE67C20A}.Release|x64.ActiveCfg = Release|Any CPU
+		{EC03E708-A420-44D8-8D45-91DBAE67C20A}.Release|x64.Build.0 = Release|Any CPU
+		{EC03E708-A420-44D8-8D45-91DBAE67C20A}.Release|x86.ActiveCfg = Release|Any CPU
+		{EC03E708-A420-44D8-8D45-91DBAE67C20A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

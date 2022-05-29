@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using shoestore.Models;
+using Shoestore.mvc.Models;
 
-namespace shoestore.Controllers;
+namespace Shoestore.mvc.Controllers;
 
 public class HomeController : Controller
 {

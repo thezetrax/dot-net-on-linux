@@ -7,6 +7,12 @@
       "commands": [
         "dotnet-ef"
       ]
+    },
+    "dotnet-aspnet-codegenerator": {
+      "version": "6.0.5",
+      "commands": [
+        "dotnet-aspnet-codegenerator"
+      ]
     }
   }
 }

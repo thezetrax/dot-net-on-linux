@@ -8,8 +8,9 @@ public class Program
     public static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
+        
 
-        var connectionString = @"Data Source=127.0.0.1,1433;Database=master;User=sa;Password=custom_password_123;";
+        var connectionString = builder.Configuration.GetConnectionString("Shoestore");
         builder.Services.AddDbContext<ApplicationDBContext>(options => options.UseSqlServer(connectionString));
         builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 

@@ -25,6 +25,7 @@ RUN dotnet build "Shoestore.migrations.csproj" -c Release -o /shoestore/migratio
 FROM base
 COPY --from=build /app/build .
 COPY Shoestore.mvc/Views ./Views
+COPY Shoestore.mvc/wwwroot ./wwwroot
 COPY --from=migration /shoestore/migration /migration
 COPY scripts/entrypoint.sh .
 RUN chmod +x ./entrypoint.sh

@@ -11,12 +11,12 @@ public class MigrationStartup {
     public MigrationStartup()
         {
             var builder = new ConfigurationBuilder()
-                .AddJsonFile("application.json", optional: true, reloadOnChange: true)
+                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
                 .AddEnvironmentVariables();
             Configuration = builder.Build();
 
             //.. for test
-            Console.WriteLine(Configuration.GetConnectionString("LearningAnalyticsAPIContext"));
+            Console.WriteLine(Configuration.GetConnectionString("Shoestore"));
         }
 
         public IConfiguration Configuration { get; }

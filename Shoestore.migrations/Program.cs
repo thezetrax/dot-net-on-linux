@@ -15,9 +15,9 @@ class Program
             .Build();
 
         using (var context = (ApplicationDBContext) (
-                webhost.Services.GetService(typeof(ApplicationDBContext)) ??
-                throw new InvalidOperationException("Context shouldn't be null")
-            ))
+            webhost.Services.GetService(typeof(ApplicationDBContext)) ??
+            throw new InvalidOperationException("Context shouldn't be null")
+        ))
         {
             context.Database.Migrate();
         }

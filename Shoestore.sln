@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoestore.mvc", "Shoestore.mvc\Shoestore.mvc.csproj", "{EC03E708-A420-44D8-8D45-91DBAE67C20A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoestore.migrations", "Shoestore.migrations\Shoestore.migrations.csproj", "{F3B54DBA-D9DB-4886-BF8B-A4AADE224EF6}"
-EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,17 +30,5 @@ Global
 		{EC03E708-A420-44D8-8D45-91DBAE67C20A}.Release|x64.Build.0 = Release|Any CPU
 		{EC03E708-A420-44D8-8D45-91DBAE67C20A}.Release|x86.ActiveCfg = Release|Any CPU
 		{EC03E708-A420-44D8-8D45-91DBAE67C20A}.Release|x86.Build.0 = Release|Any CPU
-		{F3B54DBA-D9DB-4886-BF8B-A4AADE224EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F3B54DBA-D9DB-4886-BF8B-A4AADE224EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F3B54DBA-D9DB-4886-BF8B-A4AADE224EF6}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{F3B54DBA-D9DB-4886-BF8B-A4AADE224EF6}.Debug|x64.Build.0 = Debug|Any CPU
-		{F3B54DBA-D9DB-4886-BF8B-A4AADE224EF6}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{F3B54DBA-D9DB-4886-BF8B-A4AADE224EF6}.Debug|x86.Build.0 = Debug|Any CPU
-		{F3B54DBA-D9DB-4886-BF8B-A4AADE224EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F3B54DBA-D9DB-4886-BF8B-A4AADE224EF6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F3B54DBA-D9DB-4886-BF8B-A4AADE224EF6}.Release|x64.ActiveCfg = Release|Any CPU
-		{F3B54DBA-D9DB-4886-BF8B-A4AADE224EF6}.Release|x64.Build.0 = Release|Any CPU
-		{F3B54DBA-D9DB-4886-BF8B-A4AADE224EF6}.Release|x86.ActiveCfg = Release|Any CPU
-		{F3B54DBA-D9DB-4886-BF8B-A4AADE224EF6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
